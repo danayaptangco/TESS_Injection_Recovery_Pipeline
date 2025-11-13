@@ -7,7 +7,7 @@ Welcome to the injection+recovery pipeline!
 The way that it's organized is into 3 parts:
 1. Getting the TESS sample to run the injection+recovery
 2. Injecting the Lightcurves
-- Sending the Lightcurves to Geryon, running them, and retrieving the results
+Sending the Lightcurves to Geryon, running them, and retrieving the results
 3. Turning the results into heatmaps that also take into account false positives
 
 The folders are numbered in chronological order of what steps to take, and inside each folder, the files/folders you need to use are also numbered in order of what to do. (e.g. start with `1_get_sample/`, and inside that folder start with `1_TOI_CTL.ipynb`)
