@@ -30,7 +30,7 @@ The folders are numbered in chronological order of the steps to take, and inside
 
 - In `histogram_sample_2d.py`, in the `make_control` function, you can modify `n_targets` to get a different number of targets from the CTL
   - Currently set to get **10x** the number of inputted targets
-  - The default is set up to use **stellar radius** and **TESS magnitude** as the parameters, but this can be changed
+- The default is set up to use **stellar radius** and **TESS magnitude** as the parameters, but this can be changed
 
 ---
 
