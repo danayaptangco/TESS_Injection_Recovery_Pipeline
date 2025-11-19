@@ -36,7 +36,7 @@ The folders are numbered in chronological order of what steps to take, and insid
 1. **Open and run** `1_output_injected_flattened_lcs_randomized_periods_radii.ipynb`. This will put the injected lightcurves into the relevant folder.
    - If you want to modify the period/radius space, you can do that towards the bottom of the cell. Otherwise, the notebook should run automatically.
    - **This can take a few hours** for ~1000 lightcurves
-   - **Be careful to only run this cell once**, because previous progress checking is not implemented. It's non-trivial since the injections are randomized in the cell. Feel free to take a stab at adding previous progress checking though!! If you have to re-run part way through, you'll have to go into `3_import_to_geryon/` and delete the existing TIC folders, or you can manually define which TICs to run again.
+   - **Previous runs check is implemented BUT,** it only checks for previously run TIC folders. Therefore, if you interrupt the cell and re-start, some folders will be incomplete, and you will need to manually delete any that do not have 42 / the desired number of files.
    - Also be aware that **you need to have an internet connection** while it's running or else the lightcurves can't be accessed.
    - **Use the last cell** to ensure that you generated the number of lightcurves that you intended before uploading to Geryon
 
