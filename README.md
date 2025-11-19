@@ -21,7 +21,7 @@ The folders are numbered in chronological order of what steps to take, and insid
 2. **Add to the same folder** (`1_get_sample/`) a csv that contains the TIC IDs that you'd like to get a representative sample for with the relevant parameters
    - See `TOI_Mar2025_1pt5to4_R.csv` as an example
 
-3. **Make sure** that `CTL_2025April29.npz` is in the same folder as well, or from whatever date, and modify cell 8 to reflect the correct date
+3. **Make sure** that `CTL_2025April29.npz` is in the same folder as well, or from whatever date, and modify cell 8 to reflect the correct date. You can download that here: https://www.dropbox.com/scl/fi/2s3ese63a40popf3ou7a6/CTL_2025April29.npz?rlkey=yg3nu3ytbr5xz1lhsttivbkcr&dl=1 or ask Gijs Mulders for a copy. It is too large to include in Github.
 
 4. **Run the cell**, which will generate the sample and automatically add it to the relevant folders
 
