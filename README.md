@@ -27,8 +27,9 @@ The folders are numbered in chronological order of what steps to take, and insid
 
 **Note:**
 - In `histogram_sample_2d.py`, in the `make_control` function, you can modify `n_targets` to get a different number of targets from the CTL. It's currently set to get 10x the number of inputted targets.
-- The default is set up to use stellar radius and tess magnitude as the parameters, but this can be changed
+- The default is set up to use stellar radius and tess magnitude as the parameters, but this can be changed. If you want a sample that is 1-1, just change the value from 10 to 1.
 
+5. (Optional) To cut down the CTL sample to get the same distribution of sectors as the TOI list, run '2_optional_match_sector_lengths.ipynb'. The first cell runs it for the CTLs, and the second cell runs it for the TOIs. An estimation is included for how long it will take to run all the lightcurves.
 ---
 
 ## Part Two: `2_injection/`
