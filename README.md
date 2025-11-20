@@ -93,8 +93,6 @@ The folders are numbered in chronological order of what steps to take, and insid
 2. **Once Geryon has finished running** and you've copied the results back to your local machine, you can open `2_heatmaps_analysis.ipynb` to see the results of the injections in heatmap form.
    - The first cell creates one map per TIC
    - The second cell creates one map per specific temperature bin
-   - The third cell adds contours
-   - The fourth cell is contour analysis
 
 ---
 
